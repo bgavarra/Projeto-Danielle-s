@@ -14,9 +14,8 @@ h1 {
 }
 
 h2{
-  margin-top: 45vh;
+
   text-align: center;
-  font-size: 40px;
 }
 
 #navbar{
@@ -61,4 +60,62 @@ button:hover{
   background-color: #000000; /* Green */
   color: white;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.corpo.row{
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 12px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.5s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.corpo.row.about{
+  background-image: url("bg_img/silver-pen.jpg");
+  background-size:cover;
+}
+.corpo.row.art{
+  background-image: url("bg_img/silver-pen.jpg");
+  background-size:cover;
+}
+.corpo.row.contact{
+  background-image: url("bg_img/silver-pen.jpg");
+  background-size:cover;
+}
+
+.textoAbout{
+  padding-top: 4em;
+}
+.card{
+  height: 10em;
+  background: cadetblue;
+  border-radius: 12px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.5s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.card-content{
+  background-image: url("bg_img/photographer.jpg");
+  background-size:cover;
+  border-radius: 12px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.5s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.card-action{
+  border-radius: 12px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.5s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.col.l4.s4.C1{
+
+  padding-top: 6em;
+}
+.col.l4.s4.C2{
+  padding-top: 6em;
+}
+.col.l4.s4.C3{
+  padding-top: 6em;
 }
